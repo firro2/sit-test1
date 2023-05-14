@@ -1,0 +1,202 @@
+p
+{
+color: white;
+}
+body
+{
+    height: 100px;
+    width: 10px;
+    width: 100%;
+    margin: 0;
+    font-family: poppins, Helvetica, sans-serif;
+    font-weight: 400;
+
+    background-color: #20001e;
+}
+
+
+  .adaptivSlayder {
+
+    position: relative;
+  
+    max-width: 1210px;
+  
+    margin: 65px auto;
+  
+    box-shadow: 0 9px 18px -4px rgba(0, 0, 0, 0.69);
+
+  }
+  
+   
+  
+  .adaptivSlayder input[name="kadoves"] {
+  
+    display: none;
+  
+  }
+  
+   
+  
+  .kadoves {
+  
+    position: absolute;
+  
+    left: 0;
+  
+    bottom: -35px;
+  
+    text-align: center;
+  
+    width: 100%;
+  
+  }
+  
+   
+  
+  .kadoves label {
+  
+    display: inline-block;
+  
+    width: 7px;
+  
+    height: 7px;
+  
+    cursor: pointer;
+  
+    margin: 0 2px;
+  
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .7);
+  
+    border-radius: 55%;
+  
+    border: 4px solid #2f363c;
+  
+    background-color: #738290;
+  
+  }
+  
+   
+  
+  
+  
+  html{
+  height: 100%;
+  }
+  .container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  text-align: right;
+  font-size: 0;
+  }
+  h2.title{
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  }
+  h2.title::after{
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 3px;
+  left: calc(50% - 25px);
+  bottom: 0;
+  background: #222222;
+  }
+  
+  /* Button Css */
+  
+  .btn{
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: right;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ffffff;
+  background: rgb(89, 0, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  }
+  
+
+
+
+
+
+
+  .adaptivny-slayder1 {
+    position: relative;
+    max-width: 680px;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+  }
+  
+  .adaptivny-slayder1 input[name="kadoves1"] {
+    display: none;
+  }
+  
+  .kadoves1 {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .kadoves1 label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #2f363c;
+    background-color: #738290;
+  }
+  
+  #slaid11:checked~.kadoves1 label[for="slaid11"] {
+    background-color: white;
+  }
+  
+  #slaid21:checked~.kadoves1 label[for="slaid21"] {
+    background-color: white;
+  }
+  
+  #slaid31:checked~.kadoves1 label[for="slaid31"] {
+    background-color: white;
+  }
+  
+  .adaptivny-slayder-lasekun1 {
+    overflow: hidden;
+     
+  }
+  
+  .abusteku-deagulus1 {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s;
+  }
+  
+  .abusteku-deagulus1 img {
+    width: 100%;
+    flex-shrink:0;
+  }
+  
+  #slaid11:checked~adaptivny-slayder-lasekun abusteku-deagulus {
+    transform: translate(0);
+  }
+  
+  #slaid21:checked~.adaptivny-slayder-lasekun1 .abusteku-deagulus1 {
+    transform: translateX(-100%);
+  }
+  
+  #slaid31:checked~.adaptivny-slayder-lasekun1 .abusteku-deagulus1 {
+    transform: translateX(-200%);
+  }
